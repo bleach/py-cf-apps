@@ -1,0 +1,6 @@
+---
+applications:
+- name: db-info
+  command: python db.py
+  services:
+  - POSTGRESDBNAMEHERE
